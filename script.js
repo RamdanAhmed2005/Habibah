@@ -86,7 +86,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   let message = textarea.value;
 
   let text =
-`🏡 رسالة جديدة من موقع حبيبة محمد
+`🏡 رسالة جديدة من موقع 𝐇𝐚𝐛𝐢𝐛𝐚 𝐌𝐨𝐡𝐚𝐦𝐞𝐝
 
 👤 الاسم: ${name}
 
@@ -97,7 +97,7 @@ ${contact}
 ${message}`;
 
   window.open(
-      "https://wa.me/201283813775?text=" + encodeURIComponent(text),
+      "https://wa.me/201202286965?text=" + encodeURIComponent(text),
       "_blank"
   );
 });
